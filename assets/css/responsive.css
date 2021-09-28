@@ -1,0 +1,146 @@
+/* start responsive */
+@media (min-width: 320px) and  (max-width: 823px) {
+    .imperatives-col, .strategic-col, .ultimate-col {
+      width: 45%;
+      margin: 0 auto;
+  }
+  .imperatives{
+    width: 215px;
+  }
+  .strategic{
+    width: 205px;
+  }
+  .target{
+    width: 217px;
+  }
+  .ultimate{
+    width: 200px;
+  }
+  #skills{
+    height: 977px !important;
+  }
+  .mission-icons{
+    margin-left: 62px;
+  }
+  #facts{
+    height: 661px !important;
+  }
+ 
+  .policy a {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 704px){
+#facts{
+  height: 759px !important;
+}
+.policy a {
+  font-size: 12px !important;
+}
+#skills{
+  height: 831px !important;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+#products img{
+  display: none;
+}
+}
+
+@media (min-width: 1201px) and (max-width: 1260px){
+#products img{
+  display: none;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1026px){
+#products img{
+  display: none;
+}
+}
+
+@media (min-width: 540px) and (max-width:720px){
+#products p{
+  margin-left: 138px;
+}
+}
+
+@media (min-width: 280px) and (max-width:823px){
+#products h5{
+  margin: 0 !important;
+  text-align: center !important;
+}
+#products .procurment p{
+  margin:0 !important;
+}
+.left-two{
+  margin-left: 14px !important;
+}
+.second-numbers{
+  margin: 0 !important;
+}
+.m-29,.m-67,.left-two{
+  margin-left: 0 !important;
+}
+}
+
+@media (min-width: 704px) and  (max-width: 1200px) {
+#facts {
+  height: 535px !important;
+}
+}
+
+@media (min-width: 411px) and  (max-width: 731px) {
+.learn{
+  margin-left: 56% !important;
+}
+}
+
+@media (min-width: 280px) and  (max-width:768px) {
+  .col-img {
+    float: none !important;
+  }
+}
+
+@media (min-width: 768px) and  (max-width: 1024px) {
+
+.text-top {
+height: 320px !important;
+}
+.col-img {
+  float: right !important;
+}
+}
+
+@media (min-width: 1024px) and  (max-width: 1199px) {
+#career{
+    height: 524px !important;
+}
+}
+
+@media (min-width: 320px) and  (max-width: 568px) {
+.text-top {
+height: 250px !important;
+}
+}
+
+@media (max-width: 991px) {
+  #footer ul {
+    display: block;
+  }
+  #footer ul li:after{
+    content: "";
+  }
+}
+
+@media (min-width: 280px)and  (max-width: 1020px) {
+  .col-img {
+    margin: 0 !important;
+  }
+#footer .improve{
+  margin: 0 !important;
+}
+}
+/* end responsive */
