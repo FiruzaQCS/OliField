@@ -1395,7 +1395,7 @@ margin-top: 64px;
 
 .logo-sider::after{
   content:"";
-  background-image:linear-gradient( #003b80, #023875b0, #032f63ed);
+  /* background-image:linear-gradient( #003b80, #023875b0, #032f63ed); */
   display: block;
   width: 400px;
   height: 355px;
@@ -1415,10 +1415,10 @@ margin-top: 64px;
 .logo-sider-bottom{
   width: 400px;
   height: 125px;
-  background-image:linear-gradient( #003b80, #023875b0, #032f63ed);
+  /* background-image:linear-gradient( #003b80, #023875b0, #032f63ed); */
   position: relative;
   opacity: 0.9;
-  top: -5px;
+  top: 7px;
   z-index: 4;
   padding: 18px 45px;
 }
@@ -1426,7 +1426,7 @@ margin-top: 64px;
 .logo-sider-bottom p{
   margin: 0;
     padding: 0;
-  font-weight: 100;
+  font-weight: 500;
   font-family: "Montserrat";
   color: #fff;
   letter-spacing: 1px;
@@ -1449,8 +1449,8 @@ margin-top: 64px;
 .image-boxs{
   padding: 39px 8px;
   left: 38px;
-  width: 292px;
-  top: -16px;
+  width: 269px;
+  top: 11px;
   position: absolute;
   z-index: 7;
 }
@@ -1467,9 +1467,9 @@ margin-top: 64px;
   height: 306px;
   background-color: #ffffff;
   margin: 0px 38px;
-  height: 282px;
+  height: 259px;
   z-index: 7;
-  top: 44px;
+  top: 62px;
 }
 .slide-text span{
   font-size: 14px;
