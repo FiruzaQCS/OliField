@@ -915,8 +915,6 @@ span.balance{
   position: relative;
 }
 .sustaniblty{
-  background-color: rgb(239 0 0 / 0%);
-  background-image: linear-gradient(to right, rgb(255 0 0 / 63%) 0%,rgb(24 2 2 / 36%) 87%);
   position: absolute;
   top: 0;
   left: 0;
