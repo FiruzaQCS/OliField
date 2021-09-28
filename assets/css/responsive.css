@@ -16,9 +16,9 @@
   .ultimate{
     width: 200px;
   }
-  #skills{
+  /* #skills{
     height: 977px !important;
-  }
+  } */
   .mission-icons{
     margin-left: 62px;
   }
@@ -38,9 +38,9 @@
 .policy a {
   font-size: 12px !important;
 }
-#skills{
+/* #skills{
   height: 831px !important;
-}
+} */
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -59,6 +59,7 @@
 #products img{
   display: none;
 }
+
 }
 
 @media (min-width: 540px) and (max-width:720px){
@@ -68,7 +69,10 @@
 }
 
 @media (min-width: 280px) and (max-width:823px){
-#products h5{
+  .mission-image, #skills {
+    height: 100% !important;
+  }
+  #products h5{
   margin: 0 !important;
   text-align: center !important;
 }
