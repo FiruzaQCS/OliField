@@ -265,6 +265,9 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+}
+
+@media (max-width: 1024px) {
   #navbar ul li a {
     color: #000000;
   }
