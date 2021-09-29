@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #header.header-scrolled {
-  background:rgb(7 7 13 / 68%);
+  background:rgb(19 62 116);
   height: 60px;
 }
 #header .logo {
@@ -1395,8 +1395,7 @@ margin-top: 64px;
 
 .logo-sider::after{
   content:"";
-  background: #0b3a6ab8;
-  /* background-image:linear-gradient( #003b80, #023875b0, #032f63ed); */
+  background-image:linear-gradient( #003b80, #023875b0, #032f63ed);
   display: block;
   width: 400px;
   height: 355px;
