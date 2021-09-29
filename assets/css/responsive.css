@@ -38,11 +38,18 @@
 .policy a {
   font-size: 12px !important;
 }
-/* #skills{
-  height: 831px !important;
-} */
 }
-
+@media (min-width: 280px) and (max-width: 1024px){
+.oess-defined span{
+  float: none;
+}
+.oess-defined img{
+  float: none;
+}
+.oess-defined{
+  margin-left: 0px !important;
+}
+}
 @media (min-width: 1024px) and (max-width: 1200px){
 #products img{
   display: none;
