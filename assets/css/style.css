@@ -706,6 +706,7 @@ section {
   font-weight: 100;
   padding: 0;
   text-align: left;
+  text-align: center;
   font-weight: 100;
   margin-top: 12px;
 }
@@ -1013,7 +1014,7 @@ hr.h3{
   left: 0px;
 }
 .about-text hr.h3::before{
-  left: 86%;
+  left: 88%;
 }
 .susradius{
   margin-top: 35px;
