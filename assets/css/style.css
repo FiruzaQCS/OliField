@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #header.header-scrolled {
-  background:rgb(19 62 116);
+  background:#133e74d9;
   height: 60px;
 }
 #header .logo {
