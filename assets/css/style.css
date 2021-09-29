@@ -1395,7 +1395,8 @@ margin-top: 64px;
 
 .logo-sider::after{
   content:"";
-  background-image:linear-gradient( #003b80, #023875b0, #032f63ed);
+  background: #0b3a6ab8;
+  /* background-image:linear-gradient( #003b80, #023875b0, #032f63ed); */
   display: block;
   width: 400px;
   height: 355px;
