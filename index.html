@@ -19,10 +19,12 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/jquery.preloader-1.2.css">
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/responsive.css" rel="stylesheet">
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   <!-- <script>
     // Initialize and add the map
     function initMap() {
@@ -41,14 +43,14 @@
     }
   </script> -->
   <script>
-  function initMap() {
-  new google.maps.Map(document.getElementById("map"), {
-    mapId: "728586ac2688707",
-    center: { lat: 48.85, lng: 2.35 },
-    zoom: 12,
-  });
-}
-    </script>
+    function initMap() {
+      new google.maps.Map(document.getElementById("map"), {
+        mapId: "728586ac2688707",
+        center: { lat: 48.85, lng: 2.35 },
+        zoom: 12,
+      });
+    }
+  </script>
 </head>
 
 <body>
@@ -809,7 +811,7 @@
             <div class="row learn-more">
               <div class="container-fluid">
                 <div class="col-md-11">
-                  <a href="health.html" class="learn">Learn More</a>
+                  <a href="health.html" id="more-button" onclick="test()" class="learn">Learn More</a>
                 </div>
               </div>
             </div>
@@ -1151,7 +1153,6 @@
     <!-- End Contact Section -->
   </main>
   <!-- End #main -->
-
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container-fluid">
@@ -1187,14 +1188,13 @@
     </div>
   </footer>
   <!-- End Footer -->
-
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBggF-jydy4n87F8IAWYUf-jiYpzgSqAa4&callback=initMap&v=weekly"
-    async></script> 
-  <!-- Vendor JS Files -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    async></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -1203,10 +1203,12 @@
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/js/jquery.preloader-1.2.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
- 
+  <script src="assets/js/loader.js"></script>
+
 </body>
 
 </html>
