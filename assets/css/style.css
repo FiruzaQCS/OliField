@@ -1565,3 +1565,43 @@ margin-top: 64px;
   width: 500px;
   margin: 0 auto;
 }
+.principle-center{
+  text-align: center;
+  margin: 0 auto;
+}
+.leave-icon-health{
+  text-align: center;
+  margin-top: 26px;
+  /* background-color: rgb(107, 191, 10);
+  border: 1px solid #6bbf0a; */
+  border-radius: 32px;
+}
+.first-guid-health{
+  padding-left: 20px;
+    font-weight: 500;
+    margin-top: 21px;
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(12, 20, 25);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 21px;
+}
+.organization-group ul{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(12, 20, 25);
+  line-height: 1.2;
+  text-align: left;
+}
+#hazardgroup{
+  margin-top: 55px;
+}
+#actions ul{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(12, 20, 25);
+  line-height: 1.2;
+  text-align: left;
+  margin-top: 19px;
+}
