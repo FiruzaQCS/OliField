@@ -1423,7 +1423,9 @@ margin-top: 64px;
   z-index: 4;
 }
 
-
+.logo-sider-health{
+  margin-top: 37px;
+}
 .logo-sider-bottom, .logo-sider-bottom-health{
   width: 400px;
   height: 125px;
