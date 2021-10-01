@@ -712,9 +712,7 @@ section {
   margin-left: 18px;
   text-align: left;
 }
-.about-col h2{
-  /* text-align: center; */
-}
+
 #about .about-col h2 a , #our-mission .our-mission-cols h2 a, .about-col-health h2 a{
   color: #000;
 }
@@ -733,7 +731,13 @@ section {
   text-align: left;
   margin: 11px 0px;
 }
-
+.about-text-service p{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(12, 20, 25);
+  line-height: 1.2;
+  text-align: left;
+}
 .strategy-title p{
   font-size: 30px;
 color: #0c1419;
@@ -1040,6 +1044,18 @@ hr.h3{
   z-index: 63;
   margin: 0;
   padding: 0;
+}
+#guid-title-service p{
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(12, 20, 25);
+  line-height: 1.2;
+  z-index: 63;
+  margin: 0;
+  padding: 0;
+}
+#guid-title-service{
+margin-bottom: 20px;
 }
 .leave-icon{
   text-align: center;
@@ -1629,4 +1645,40 @@ margin-top: 64px;
 
 #loading-image {
   z-index: 100;
+}
+
+/* services and rigging */
+.provides{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(12, 20, 25);
+  line-height: 1.2;
+  text-align: left;
+}
+.energy{
+  margin-top: 40px;
+}
+.energy-other{
+  margin-top: 15px;
+}
+.m-20{
+  margin-top: 20px;
+}
+.wind-list p{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(12, 20, 25);
+  line-height: 1.2;
+  text-align: left;
+  padding: 2px 2px;
+  margin: 0;
+}
+.logistic img{
+  width: 100%;
+}
+.energy img{
+  width: 100%;
+}
+.top-22{
+  margin-top: 22px;
 }
