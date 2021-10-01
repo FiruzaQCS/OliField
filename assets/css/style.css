@@ -1682,3 +1682,11 @@ margin-top: 64px;
 .top-22{
   margin-top: 22px;
 }
+/* career */
+.treat-img, .treat-text {
+  float: left;
+}
+.treat-text{
+  padding: 0;
+    margin: 10px 10px;
+}
