@@ -159,6 +159,13 @@ height: 250px !important;
 .txt-center{
   text-align: center !important;
 }
+.feature-icon{
+  margin-left: 0 !important;
+  text-align: center !important;
+}
+.lunch-text{
+  text-align: center !important;
+}
 }
 /* end responsive */
 
