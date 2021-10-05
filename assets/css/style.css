@@ -31,20 +31,24 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar li:after
 {
-  content: ' |';
-  padding-left: 8px;
-  padding-right: 8px;
+  content: ' ';
   color: #fff;
+  border-right: 1px solid #fff;
+  height: 14px;
+  margin-left: 6px;
+  margin-right: 8px;
+  margin-top: 8px;
 }
 #navbar ul li:last-child:after
 {
   content: '';
+  border: none;
 }
 .carousel-control-prev, .carousel-control-next{
   display: none;
 }
 #navbar ul li a{
-  padding-left: 3px;
+  padding-left: 0px;
   font-size: 13px;
   color: #ffffff;
   font-weight: 100;
@@ -401,8 +405,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 70px;
-  left: 16px;
+  top: 110px;
+  left: 29px;
   right: 50px;
 }
 #hero .container {
@@ -1433,7 +1437,7 @@ margin-top: 64px;
   background-image:linear-gradient( #003b80, #023875b0, #032f63ed);
   display: block;
   width: 400px;
-  height: 355px;
+  height: 323px;
   z-index:4;
 }
 .col-center{
@@ -1452,16 +1456,17 @@ margin-top: 64px;
   z-index: 4;
 }
 
-.logo-sider-health{
+
+.logo-sider, .logo-sider-health{
   margin-top: 37px;
 }
 .logo-sider-bottom, .logo-sider-bottom-health{
   width: 400px;
   height: 155px;
-  background-image:linear-gradient( #003b80, #023875b0, #032f63ed);
+  background-image: linear-gradient( #003b80, #023875b0, #032f63ed);
   position: relative;
   opacity: 0.9;
-  top: 7px;
+  top: -35px;
   z-index: 4;
   padding: 18px 45px;
 }
@@ -1490,10 +1495,9 @@ margin-top: 64px;
   left: 46px;
 }
 .image-boxs{
-  padding: 39px 8px;
+  padding: 33px 8px;
   left: 38px;
-  width: 269px;
-  top: 11px;
+  width: 292px;
   position: absolute;
   z-index: 7;
 }
@@ -1510,20 +1514,20 @@ margin-top: 64px;
   height: 306px;
   background-color: #ffffff;
   margin: 0px 38px;
-  height: 259px;
+  height: 257px;
   z-index: 7;
-  top: 62px;
+  top: 45px;
 }
 .slide-text span{
-  font-size: 14px;
-  color: #ffffff;
-  font-weight: 400;
-  text-align: left;
-  font-family: "Montserrat";
-  position: absolute;
-  z-index: 7;
-  top: 194px;
-  left: 61px;
+  font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Montserrat";
+    position: absolute;
+    z-index: 7;
+    top: 200px;
+    left: 61px;
 }
 
 #map {
