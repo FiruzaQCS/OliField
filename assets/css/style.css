@@ -979,6 +979,12 @@ p.goal{
   padding: 17px 27px 12px 44px;
   background-position: 15px 9px;
 }
+.sutainable-button a{
+  color: rgb(2, 153, 223);
+}
+.safety-href a{
+  color: #fff;
+}
 .policy-button {
   padding: 18px 28px 13px 51px;
   background:  rgb(16, 156, 221) url(../images/doc-fav-white.png);
