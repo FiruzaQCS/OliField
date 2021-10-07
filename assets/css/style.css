@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   height: 28px;
 }
+#health-navbar a{
+  font-size: 15px !important;
+}
+
 #navbar li{
   display: inherit;
 }
@@ -606,7 +610,7 @@ section {
 .teamwork p.team-text, .enviroment p.env-text, .integrity p.integ-text{
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Arial";
   color: rgb(12, 20, 25);
   line-height: 1.2;
@@ -729,7 +733,7 @@ section {
   padding: 0 20px 20px 20px;
 }
 .about-text p, .strategy-text p{
-  font-size: 16px;
+  font-size: 15px;
   color: #0c1419;
   font-family: "Arial";
   text-align: left;
@@ -1463,7 +1467,7 @@ margin-top: 64px;
 }
 
 
-.logo-sider, .logo-sider-health{
+.m-37{
   margin-top: 37px;
 }
 .logo-sider-bottom, .logo-sider-bottom-health{
