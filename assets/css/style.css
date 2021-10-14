@@ -912,14 +912,18 @@ span.balance{
   float: left;
   margin-top: 54px;
 }
-.code{
+.code a{
   font-size: 17px;
   color: #2576bb;
   font-family: "Arial";
 }
+.code a:hover{
+  color: #830404;
+}
 .buisness{
   float: left;
 }
+
 .suppliers{
   margin-top: 32px;
 }
@@ -963,7 +967,7 @@ p.goal{
   font-size: 14px;
   color: #ffffff;
   font-family: "Arial";
-  padding-top: 48px;
+  padding-top: 38px;
 }
 
 .sutainable-button, .policy-button {
@@ -982,9 +986,24 @@ p.goal{
   background-repeat: no-repeat;
   padding: 17px 27px 12px 44px;
   background-position: 15px 9px;
+  transition: 0.5s;
+
 }
 .sutainable-button a{
   color: rgb(2, 153, 223);
+  transition: 0.5s;
+
+}
+.sutainable-button:hover{
+  background: rgb(2, 153, 223) url(../images/doc-fav-white.png);
+  background-repeat: no-repeat;
+  padding: 17px 27px 12px 44px;
+    background-position: 15px 9px;
+    transition: 0.5s;
+}
+.sutainable-button:hover a{
+  color:#fff;
+  transition: 0.5s;
 }
 .safety-href a{
   color: #fff;
@@ -996,12 +1015,26 @@ p.goal{
   color: #fff;
   background-repeat: no-repeat;
   background-position: 16px 10px;
+  transition: 0.5s;
+
+}
+.policy-button:hover{
+  padding: 18px 28px 13px 51px;
+  background:  #fff url(../images/dov-fav.png);
+  border: 1px solid rgb(16, 156, 221);
+  color: rgb(16, 156, 221);
+  background-repeat: no-repeat;
+  background-position: 16px 10px;
+  transition: 0.5s;
+}
+.policy-button:hover a{
+  color: rgb(16, 156, 221);
 }
 .policy-icons{
   margin: 24px 0px;
 }
 .policy{
-  margin: 25px 54px;
+  margin: 40px 54px;
 }
 
 /* guidline   */
@@ -1165,6 +1198,13 @@ p#emp-guid{
   background: #fff;
   color: #a2a2a2;
 }
+#health .learn:hover{
+  border: 1px solid #fff;
+    padding: 7px 22px;
+    border-radius: 11px;
+    color: #fff;
+    background: #a2a2a2;
+}
 #health .learn-more, #products .learn-more{
   margin-bottom: 40px;
     text-align: right;
@@ -1186,12 +1226,28 @@ p#emp-guid{
   border-radius: 11px;
 }
 
+#products .learn:hover{
+  color:#fff;
+  border: 1px solid #c5c5c5;
+  background: rgb(42 41 41 / 55%);
+  padding: 7px 22px;
+  border-radius: 11px;
+}
+
 #career .learn{
   background: rgb(255 255 255);
   border: 1px solid #ffffff;
   color: #c5c5c5;
   padding: 7px 22px;
   border-radius: 11px;
+}
+#career .learn:hover{
+  background: rgb(38 37 37);
+    border: 1px solid #ffffff;
+    color: #fff;
+    padding: 7px 22px;
+    border-radius: 11px;
+    transition: 0.5s;
 }
 /* services and products */
 #products .about-col a, .about-col-health a{
