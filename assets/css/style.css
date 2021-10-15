@@ -584,11 +584,12 @@ section {
   color: rgb(12, 20, 25);
   line-height: 1.2;
   text-align: left;
+  margin-top: 52px;
 }
 .first-line, .second-line{
   height: 100%;
 }
-.vision-text{
+.vision-text p{
   font-size: 16px;
   font-family: "Arial";
   color: rgb(12, 20, 25);
@@ -678,6 +679,7 @@ section {
 #about .about-col,#our-mission .our-mission-cols, .about-col-health{
   border-radius: 0 0 4px 4px;
   margin-bottom: 20px;
+  margin-top: 22px;
 }
 #about .about-col .img, #our-mission .our-mission-cols .img , .about-col-health img{
   position: relative;
