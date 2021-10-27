@@ -656,7 +656,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about{
-  padding: 60px 0 40px 0;
+  padding: 20px 0 40px 0;
 }
 #our-mission{
   padding: 20px 0 40px 0;
@@ -710,7 +710,7 @@ section {
 }
 
 #about .about-col h2, #our-mission .our-mission-cols h2 , .about-col-health h2{
-  font-size:26px;
+  font-size:28px;
   color: #0c1419;
   font-family: "Arial";
   font-weight: 100;
@@ -782,10 +782,7 @@ margin: 11px 0px;
   z-index: 5;
   position: relative;
 }
-.shape img{
-  width: 100%;
-  height: 100%;
-}
+
 .imperatives-col{
   width:21%;
 }
@@ -1212,7 +1209,8 @@ p#emp-guid{
     text-align: right;
 }
 #products .learn-more{
-  margin: 60px 0px;
+  margin: 67px -30px;
+  text-align: right;
 }
 #career .learn-more{
   text-align: right;
@@ -1221,19 +1219,21 @@ p#emp-guid{
   margin-right: 90px;
 }
 #products .learn{
-  background:rgba(150, 150, 150, 0.549);
-  border: 1px solid #c5c5c5;
-  color: #fff;
-  padding: 7px 22px;
+  background: rgba(150, 150, 150, 0.55);
+  border: 1px solid rgb(197, 197, 197);
+  color: rgb(255, 255, 255);
+  padding: 11px 28px;
   border-radius: 11px;
+  line-height: 1;
 }
 
 #products .learn:hover{
   color:#fff;
   border: 1px solid #c5c5c5;
   background: rgb(42 41 41 / 55%);
-  padding: 7px 22px;
+  padding: 11px 28px;
   border-radius: 11px;
+  line-height: 1;
 }
 
 #career .learn{
@@ -1271,19 +1271,18 @@ p#emp-guid{
 }
 .procurment h5{
   text-align: right;
-    color: #222;
-    font-weight: 500;
-    font-size: 17px;
-    margin: 0px 12px 27px 80px;
+  color: #222;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0px 0px 26px 80px;
 }
 .procurment p{
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Arial";
   color: rgb(12, 20, 25);
   line-height: 1.2;
   text-align: left;
   margin-left: 31px;
-  width: 347px;
 }
 .one-img{
   height: 83px;
@@ -1390,6 +1389,7 @@ p#emp-guid{
   background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+    text-align: center;
 }
 .candidates p.looking{
   font-size: 24px;
@@ -1955,4 +1955,64 @@ margin-top: 64px;
   width:100%;
   height: 100%;
   position: absolute;
+}
+.shape img{
+  width: 100%;
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.shape:hover img{
+	transform: scale(1.1);
+}
+.oess-image img{
+  width: 100%;
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.oess-image:hover img{
+	transform: scale(1.1);
+}
+#mission img{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+#mission:hover img{
+  transform: scale(1.1);
+}
+
+.col-center img{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.col-center:hover img{
+  transform: scale(1.3);
+}
+.ethicFac:hover img{
+  width: 25px;
+  transition: .3s ease-in-out;
+}
+.ethicFac img{
+  width: 20px;
+  transition: .3s ease-in-out;
+}
+.susradius img{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.susradius:hover img{
+  transform: scale(1.1);
+}
+.leave-icon img{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.leave-icon:hover img{
+  transform: scale(1.1);
+}
+.leadership img{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.leadership:hover img{
+  transform: scale(1.1);
 }
