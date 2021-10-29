@@ -584,7 +584,7 @@ section {
   color: rgb(12, 20, 25);
   line-height: 1.2;
   text-align: left;
-  margin-top: 52px;
+  margin-top: 15px;
 }
 .first-line, .second-line{
   height: 100%;
@@ -710,7 +710,7 @@ section {
 }
 
 #about .about-col h2, #our-mission .our-mission-cols h2 , .about-col-health h2{
-  font-size:28px;
+  font-size:29px;
   color: #0c1419;
   font-family: "Arial";
   font-weight: 100;
@@ -725,6 +725,9 @@ section {
 
 #about .about-col h2 a , #our-mission .our-mission-cols h2 a, .about-col-health h2 a{
   color: #000;
+}
+.f-30{
+  font-size: 30px;
 }
 
 #about .about-col p , .about-col-health p{
@@ -897,7 +900,7 @@ span.balance{
   height: 363px;
 }
 .mission-image  h3{
-  font-size: 36px;
+  font-size: 30px;
   color: #0c1419;
   font-family: "Arial";
   margin: 25px 60px;
@@ -946,7 +949,7 @@ span.balance{
   height: 100%;
 }
 .abilty-text p.title-head{
-  font-size: 32px;
+  font-size: 30px;
 color: #ffffff;
 font-family: 'Montserrat';
 margin: 51px 56px;
@@ -1081,7 +1084,7 @@ hr.h3{
   margin-top: 73px;
 }
 #guid-title p{
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Arial";
   color: rgb(12, 20, 25);
   line-height: 1.2;
@@ -1159,7 +1162,7 @@ p#emp-guid{
 }
 
 #Health__and_Safety a{
-  font-size: 27px;
+  font-size: 30px;
   font-family: "Arial";
   color: rgb(255, 255, 255);
   line-height: 1.2;
@@ -1260,7 +1263,7 @@ p#emp-guid{
   text-align: left;
 }
 #products .about-col a{
-  font-size: 25px;
+  font-size: 29px;
 }
 .about-col-health a{
   font-size: 30px;
@@ -1671,7 +1674,10 @@ margin-top: 64px;
   margin-left: 4%;
 }
 .m-31{
-  margin-left: 31%;
+  margin-left: 38%;
+}
+.m-21-l{
+  margin-left: 21%;
 }
 /* =============================================================HEALTH AND SAFETYY PAGE================================ */
 .logo-sider-health::after {
@@ -1980,39 +1986,14 @@ margin-top: 64px;
   transform: scale(1.1);
 }
 
-.col-center img{
+.energy-srv img, .energy-other img, .logistic img{
   transform: scale(1);
   transition: .3s ease-in-out;
+  border: 0px;
+  border-radius: 0;
 }
-.col-center:hover img{
-  transform: scale(1.3);
-}
-.ethicFac:hover img{
-  width: 25px;
-  transition: .3s ease-in-out;
-}
-.ethicFac img{
-  width: 20px;
-  transition: .3s ease-in-out;
-}
-.susradius img{
-  transform: scale(1);
-  transition: .3s ease-in-out;
-}
-.susradius:hover img{
+.energy-srv:hover img, .energy-other:hover img, .logistic:hover img{
   transform: scale(1.1);
-}
-.leave-icon img{
-  transform: scale(1);
-  transition: .3s ease-in-out;
-}
-.leave-icon:hover img{
-  transform: scale(1.1);
-}
-.leadership img{
-  transform: scale(1);
-  transition: .3s ease-in-out;
-}
-.leadership:hover img{
-  transform: scale(1.1);
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
